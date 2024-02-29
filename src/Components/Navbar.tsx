@@ -4,6 +4,7 @@ import { RxHamburgerMenu } from "react-icons/rx"
 import { IoMdClose } from "react-icons/io"
 import { IoMdLogIn } from "react-icons/io"
 import { GoSidebarCollapse } from "react-icons/go"
+import { Link } from "react-router-dom"
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -32,17 +33,35 @@ function Navbar() {
          }`}
         >
           <ul className="flex flex-col gap-8 text-2xl text-center font-medium font-sans">
-            <li>Home</li>
-            <li>About</li>
-            <li>Gallery</li>
-            <li>Schedule</li>
-            <li>Blog</li>
-            <li>Pricing</li>
-            <li>Classes</li>
-            <li>Contact</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              {" "}
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/gallery">Gallery</Link>
+            </li>
+            <li>
+              <Link to="/schedule">Schedule</Link>
+            </li>
+            <li>
+              <Link to="/blog">Blog</Link>
+            </li>
+            <li>
+              <Link to="/pricing">Pricing</Link>
+            </li>
+            <li>
+              <Link to="/classes">Classes</Link>
+            </li>
+            <li>
+              {" "}
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
           <IoMdClose
-            className="absolute top-8 right-8 size-8"
+            className="absolute top-8 right-8 size-10 text-red-600"
             onClick={setMenu}
           />
         </div>
