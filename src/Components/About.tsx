@@ -2,10 +2,10 @@ import TitleRed from "../assets/who-we-are/title-bg.svg"
 import TrainersIcon from "../assets/who-we-are/weightlifter.png"
 import ModernIcon from "../assets/who-we-are/equpments.png"
 import LiftIcon from "../assets/who-we-are/gym.png"
-import GirlRunning from "../assets/who-we-are/girl-run.png"
+/*import GirlRunning from "../assets/who-we-are/girl-run.png"
 import GirlRedBg from "../assets/who-we-are/girl-redbg.svg"
 import GirlText from "../assets/who-we-are/girl-side-text.png"
-import GirlWind from "../assets/who-we-are/wind.png"
+import GirlWind from "../assets/who-we-are/wind.png"*/
 import ProgressionImg from "../assets/who-we-are/progresion.png"
 import WorkoutImg from "../assets/who-we-are/workout.png"
 import NutritionImg from "../assets/who-we-are/nutritions.png"
@@ -15,7 +15,7 @@ import { FaArrowRight } from "react-icons/fa"
 function About() {
   return (
     <>
-      <div className="w-full font-Montserrat  bg-[url('/src/assets/who-we-are/background.jpg')] ">
+      <div className="w-full font-Montserrat  bg-[url('/src/assets/who-we-are/background.jpg')] pb-16">
         <div className="grid grid-cols-1 grid-rows-3 place-items-center w-full gap-24">
           <div
             className="flex flex-col text-center items-center w-[90%] px-6 gap-4 py-8 rounded-tl-[40px] -mt-12  rounded-br-[40px] bg-white shadow-xl
@@ -88,9 +88,9 @@ function About() {
             </div>
             <div>
               <Link to="/classes">
-                <button className="w-48 h-14 bg-zinc-600 flex justify-center items-center gap-2 font-semibold mt-8 relative">
-                  OUR CLASSES <FaArrowRight className="text-red-600 size-4" />
-                  <span className="absolute border-2 opacity-50 border-zinc-600 w-full h-full translate-x-3 -translate-y-3 transition-all duration-300 hover:translate-x-0 hover:translate-y-0"></span>
+                <button className="w-48 h-14 bg-zinc-500 flex justify-center items-center gap-2 font-semibold mt-8 relative text-white">
+                  TAKE A TOUR <FaArrowRight className="text-red-600 size-4" />
+                  <span className="absolute border-2 opacity-50 border-zinc-500 w-full h-full translate-x-3 -translate-y-3 transition-all duration-300 hover:translate-x-0 hover:translate-y-0"></span>
                 </button>
               </Link>
             </div>

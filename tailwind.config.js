@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         Montserrat: ["Montserrat"],
       },
+      colors: {
+        brightred: "#FA0035",
+      },
       plugins: [],
     },
   },
