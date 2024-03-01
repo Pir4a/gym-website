@@ -32,8 +32,10 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="flex justify-between items-center font-Montserrat bg-black py-4 px-4">
-        <img src={logo} />
+      <div className="flex justify-between items-center font-Montserrat bg-black py-4 px-4 fixed top-0 left-0 right-0 z-20">
+        <Link to="/">
+          <img src={logo} />
+        </Link>
 
         <div className="flex items-center gap-4">
           <RxHamburgerMenu
