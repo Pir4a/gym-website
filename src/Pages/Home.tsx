@@ -3,6 +3,7 @@ import ChoseUs from "../Components/ChoseUs"
 import Featuredclasses from "../Components/Featuredclasses"
 
 import Hero from "../Components/Hero"
+import Trainers from "../Components/Trainers"
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <About />
       <Featuredclasses />
       <ChoseUs />
+      <Trainers />
     </>
   )
 }
