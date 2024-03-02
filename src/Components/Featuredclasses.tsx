@@ -7,13 +7,15 @@ import martialarts from "../assets/Features/mma.jpg"
 import crossfit from "../assets/Features/workout.jpg"
 import { BiCycling } from "react-icons/bi"
 import { TbKarate } from "react-icons/tb"
-import { FaDumbbell } from "react-icons/fa"
+import { FaArrowRight, FaDumbbell } from "react-icons/fa"
 import { GiBoxingGlove, GiJumpingRope, GiMeditation } from "react-icons/gi"
+import cta from "../assets/Features/cta-bg.png"
+import { Link } from "react-router-dom"
 
 function Featuredclasses() {
   return (
     <>
-      <div className="w-full flex flex-col items-center py-16 font-Montserrat">
+      <div className="w-full flex flex-col items-center pt-16 font-Montserrat">
         <div className="flex flex-col items-center gap-4">
           <span className="relative">
             <img src={title} className="w-64" />
@@ -25,7 +27,7 @@ function Featuredclasses() {
             We Are Offering Best Flexible Classes
           </h3>
         </div>
-        <div className="grid grid-cols-1 grid-rows-6 w-full place-items-center py-12 gap-y-4">
+        <div className="grid grid-cols-1 grid-rows-6 w-full place-items-center py-12 pb-16 gap-y-4">
           <div className="w-11/12 relative h-72 py-4 overflow-hidden group ">
             <img
               src={cyclist}
@@ -115,6 +117,20 @@ function Featuredclasses() {
             </p>
             <span className="rounded-full rotate-[30deg] h-16 w-32 absolute top-20 -left-12 bg-white opacity-30 group-hover:opacity-90 duration-500 ease-in-out"></span>
             <GiJumpingRope className="absolute top-[6.7rem] size-9 left-6 text-white group-hover:text-brightred transition-all duration-500 ease-in-out " />
+          </div>
+        </div>
+        <div className="w-full  min-h-48 bg-brightred text-center px-12 py-4">
+          <img src={cta} className="hidden" />
+          <h3 className="text-white text-2xl font-semibold">
+            We Are Always Providing Best Fitness Service For You
+          </h3>
+          <div className="w-full flex justify-center">
+            <Link to="/classes">
+              <button className="w-48 h-14 bg-white flex justify-center items-center gap-2 font-semibold mt-8 relative">
+                JOIN US <FaArrowRight className="text-red-600 size-4" />
+                <span className="absolute border-2 opacity-50 border-white w-full h-full translate-x-3 -translate-y-3 transition-all duration-300 hover:translate-x-0 hover:translate-y-0"></span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
