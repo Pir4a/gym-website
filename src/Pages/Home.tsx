@@ -1,4 +1,5 @@
 import About from "../Components/About"
+import Bmi from "../Components/Bmi"
 import ChoseUs from "../Components/ChoseUs"
 import Featuredclasses from "../Components/Featuredclasses"
 
@@ -15,6 +16,7 @@ function Home() {
       <ChoseUs />
       <Trainers />
       <Testimonials />
+      <Bmi />
     </>
   )
 }

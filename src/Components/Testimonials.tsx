@@ -93,11 +93,11 @@ function Testimonials() {
             </span>
             <span className="flex gap-4 pt-2">
               <BsArrowLeft
-                className="size-5 cursor-pointer"
+                className="size-5 cursor-pointer hover:text-brightred"
                 onClick={previousTestimonial}
               />
               <BsArrowRight
-                className="size-5 cursor-pointer"
+                className="size-5 cursor-pointer hover:text-brightred"
                 onClick={nextTestimonial}
               />
             </span>
