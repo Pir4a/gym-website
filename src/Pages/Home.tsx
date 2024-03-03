@@ -1,4 +1,5 @@
 import About from "../Components/About"
+import Blog from "../Components/Blog"
 import Bmi from "../Components/Bmi"
 import ChoseUs from "../Components/ChoseUs"
 import Featuredclasses from "../Components/Featuredclasses"
@@ -19,6 +20,7 @@ function Home() {
       <Testimonials />
       <Bmi />
       <Pricing />
+      <Blog />
     </>
   )
 }
