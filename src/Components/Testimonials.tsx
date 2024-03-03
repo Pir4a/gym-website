@@ -37,9 +37,9 @@ function Testimonials() {
           <div
             className={`opacity-70 flex gap-12 w-full transition-all duration-300 ${
               testimonial == 2
-                ? "-translate-x-[535px]"
+                ? "-translate-x-[calc(200%+6rem)]"
                 : testimonial == 1
-                ? "-translate-x-[265px]"
+                ? "-translate-x-[calc(100%+3rem)]"
                 : ""
             }`}
           >
@@ -67,9 +67,9 @@ function Testimonials() {
               <span
                 className={`flex transition-all duration-300 ${
                   testimonial == 2
-                    ? "-translate-x-[320px]"
+                    ? "-translate-x-[200%]"
                     : testimonial == 1
-                    ? "-translate-x-[160px]"
+                    ? "-translate-x-[100%]"
                     : ""
                 }`}
               >
@@ -80,9 +80,9 @@ function Testimonials() {
               <span
                 className={`flex transition-all duration-300 ${
                   testimonial == 2
-                    ? "-translate-x-[320px]"
+                    ? "-translate-x-[200%]"
                     : testimonial == 1
-                    ? "-translate-x-[160px]"
+                    ? "-translate-x-[100%]"
                     : ""
                 }`}
               >
