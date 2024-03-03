@@ -4,8 +4,6 @@ import Blog from "../Components/Blog"
 import Bmi from "../Components/Bmi"
 import ChoseUs from "../Components/ChoseUs"
 import Featuredclasses from "../Components/Featuredclasses"
-import Footer from "../Components/Footer"
-
 import Hero from "../Components/Hero"
 import Pricing from "../Components/Pricing"
 import Testimonials from "../Components/Testimonials"
@@ -24,7 +22,6 @@ function Home() {
       <Pricing />
       <Blog />
       <Banner />
-      <Footer />
     </>
   )
 }
