@@ -25,7 +25,7 @@ function Bmi() {
   }
   return (
     <>
-      <div className="bg-[url('/src/assets/BMI/background.jpg')] py-8  flex flex-col items-center px-4 font-Montserrat">
+      <div className="bg-[url('/src/assets/BMI/background.jpg')] py-8  flex flex-col items-center px-4 font-Montserrat lg:items-start lg:px-[15%]">
         <h3 className="text-4xl text-white font-semibold text-left pr-24">
           Let's Calculate Your <span className="text-brightred">BMI</span>
         </h3>
