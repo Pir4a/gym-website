@@ -8,6 +8,10 @@ import image1 from "../assets/AboutPage/3.jpg"
 import image2 from "../assets/AboutPage/4.jpg"
 
 function AboutPage() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+  }
+
   return (
     <>
       <div className="bg-[url('/src/assets/pricing/background.jpg')] py-12">
@@ -30,7 +34,10 @@ function AboutPage() {
           </p>
           <div>
             <Link to="/classes">
-              <button className="w-48 h-14 bg-brightred flex justify-center items-center gap-2 font-semibold text-white mt-8 relative">
+              <button
+                className="w-48 h-14 bg-brightred flex justify-center items-center gap-2 font-semibold text-white mt-8 relative"
+                onClick={scrollToTop}
+              >
                 CONTACT US
                 <FaArrowRight className="text-white size-4" />
                 <span className="absolute border-2 opacity-50 border-brightred w-full h-full translate-x-3 -translate-y-3 transition-all duration-300 hover:translate-x-0 hover:translate-y-0"></span>

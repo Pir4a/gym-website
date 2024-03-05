@@ -29,6 +29,9 @@ function Navbar() {
   function setSideBar() {
     setIsSideBarOpen(!isSideBarOpen)
   }
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+  }
 
   return (
     <nav>
@@ -55,43 +58,43 @@ function Navbar() {
          }`}
         >
           <ul className="flex flex-col gap-8 text-2xl text-center font-medium font-sans">
-            <li>
+            <li onClick={scrollToTop}>
               <Link to="/" onClick={setMenu}>
                 Home
               </Link>
             </li>
-            <li>
+            <li onClick={scrollToTop}>
               {" "}
               <Link to="/about" onClick={setMenu}>
                 About
               </Link>
             </li>
-            <li>
+            <li onClick={scrollToTop}>
               <Link to="/gallery" onClick={setMenu}>
                 Gallery
               </Link>
             </li>
-            <li>
+            <li onClick={scrollToTop}>
               <Link to="/schedule" onClick={setMenu}>
                 Schedule
               </Link>
             </li>
-            <li>
+            <li onClick={scrollToTop}>
               <Link to="/blog" onClick={setMenu}>
                 Blog
               </Link>
             </li>
-            <li>
+            <li onClick={scrollToTop}>
               <Link to="/pricing" onClick={setMenu}>
                 Pricing
               </Link>
             </li>
-            <li>
+            <li onClick={scrollToTop}>
               <Link to="/classes" onClick={setMenu}>
                 Classes
               </Link>
             </li>
-            <li>
+            <li onClick={scrollToTop}>
               {" "}
               <Link to="/contact" onClick={setMenu}>
                 Contact

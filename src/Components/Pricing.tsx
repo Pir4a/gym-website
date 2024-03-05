@@ -6,6 +6,10 @@ import image3 from "../assets/pricing/img3.jpg"
 import { FaArrowRight } from "react-icons/fa"
 
 function Pricing() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+  }
+
   return (
     <>
       <div className="flex flex-col text-center items-center py-24 bg-[url('/src/assets/pricing/background.jpg')] font-Montserrat ">
@@ -39,8 +43,11 @@ function Pricing() {
               <p>Cardio Zone Acess</p>
             </span>
             <div>
-              <Link to="/classes">
-                <button className="w-48 h-14 bg-brightred text-white flex justify-center  items-center gap-2 font-semibold mt-8 relative">
+              <Link to="/contact">
+                <button
+                  className="w-48 h-14 bg-brightred text-white flex justify-center  items-center gap-2 font-semibold mt-8 relative"
+                  onClick={scrollToTop}
+                >
                   SUBSCRIBE <FaArrowRight className="text-white size-4" />
                   <span className="absolute border-2 opacity-50 border-brightred w-full h-full translate-x-3 -translate-y-3 transition-all duration-300 hover:translate-x-0 hover:translate-y-0"></span>
                 </button>
@@ -64,8 +71,11 @@ function Pricing() {
               <p>Free meal plans</p>
             </span>
             <div>
-              <Link to="/classes">
-                <button className="w-48 h-14 bg-brightred text-white flex justify-center  items-center gap-2 font-semibold mt-8 relative">
+              <Link to="/contact">
+                <button
+                  className="w-48 h-14 bg-brightred text-white flex justify-center  items-center gap-2 font-semibold mt-8 relative"
+                  onClick={scrollToTop}
+                >
                   SUBSCRIBE <FaArrowRight className="text-white size-4" />
                   <span className="absolute border-2 opacity-50 border-brightred w-full h-full translate-x-3 -translate-y-3 transition-all duration-300 hover:translate-x-0 hover:translate-y-0"></span>
                 </button>
@@ -89,8 +99,11 @@ function Pricing() {
               <p>Free Sports Drinks</p>
             </span>
             <div>
-              <Link to="/classes">
-                <button className="w-48 h-14 bg-brightred text-white flex justify-center  items-center gap-2 font-semibold mt-8 relative">
+              <Link to="/contact">
+                <button
+                  className="w-48 h-14 bg-brightred text-white flex justify-center  items-center gap-2 font-semibold mt-8 relative"
+                  onClick={scrollToTop}
+                >
                   SUBSCRIBE <FaArrowRight className="text-white size-4" />
                   <span className="absolute border-2 opacity-50 border-brightred w-full h-full translate-x-3 -translate-y-3 transition-all duration-300 hover:translate-x-0 hover:translate-y-0"></span>
                 </button>

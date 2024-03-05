@@ -5,6 +5,10 @@ import SCHEDULE_DATA from "../Components/ScheduleData"
 function Schedule() {
   const [day, setDay] = useState(0)
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+  }
+
   return (
     <div className="py-12">
       <Heroes hero={"Schedule"} />
@@ -77,7 +81,10 @@ function Schedule() {
                 </p>
               </span>
 
-              <button className=" w-28 h-12 bg-neutral-500 rounded-2xl text-white font-medium">
+              <button
+                className=" w-28 h-12 bg-neutral-500 rounded-2xl text-white font-medium"
+                onClick={scrollToTop}
+              >
                 Join Now
               </button>
             </div>{" "}
@@ -101,7 +108,10 @@ function Schedule() {
                 </p>
               </span>
 
-              <button className=" w-28 h-12 bg-neutral-500 rounded-2xl text-white font-medium">
+              <button
+                className=" w-28 h-12 bg-neutral-500 rounded-2xl text-white font-medium"
+                onClick={scrollToTop}
+              >
                 Join Now
               </button>
             </div>
@@ -125,7 +135,10 @@ function Schedule() {
                 </p>
               </span>
 
-              <button className=" w-28 h-12 bg-neutral-500 rounded-2xl text-white font-medium">
+              <button
+                className=" w-28 h-12 bg-neutral-500 rounded-2xl text-white font-medium"
+                onClick={scrollToTop}
+              >
                 Join Now
               </button>
             </div>
@@ -155,7 +168,10 @@ function Schedule() {
                 </p>
               </span>
 
-              <button className=" w-28 h-12 bg-neutral-500 rounded-2xl text-white font-medium">
+              <button
+                className=" w-28 h-12 bg-neutral-500 rounded-2xl text-white font-medium"
+                onClick={scrollToTop}
+              >
                 Join Now
               </button>
             </div>

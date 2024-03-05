@@ -13,6 +13,10 @@ import cta from "../assets/Features/cta-bg.png"
 import { Link } from "react-router-dom"
 
 function Featuredclasses() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+  }
+
   return (
     <>
       <div className="w-full flex flex-col items-center pt-16 font-Montserrat">
@@ -126,7 +130,10 @@ function Featuredclasses() {
           </h3>
           <div className="w-full flex justify-center">
             <Link to="/classes">
-              <button className="w-48 h-14 bg-white flex justify-center items-center gap-2 font-semibold mt-8 relative">
+              <button
+                className="w-48 h-14 bg-white flex justify-center items-center gap-2 font-semibold mt-8 relative"
+                onClick={scrollToTop}
+              >
                 JOIN US <FaArrowRight className="text-red-600 size-4" />
                 <span className="absolute border-2 opacity-50 border-white w-full h-full translate-x-3 -translate-y-3 transition-all duration-300 hover:translate-x-0 hover:translate-y-0"></span>
               </button>

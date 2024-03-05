@@ -6,6 +6,10 @@ import { Link } from "react-router-dom"
 import { FaArrowRight } from "react-icons/fa"
 
 function ClassesPage() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
+  }
+
   return (
     <>
       <Heroes hero={"Classes"} />
@@ -35,7 +39,10 @@ function ClassesPage() {
               </span>
               <div>
                 <Link to="/contact">
-                  <button className="w-48 h-14 bg-white flex justify-center items-center gap-2 font-semibold mt-8 relative">
+                  <button
+                    className="w-48 h-14 bg-white flex justify-center items-center gap-2 font-semibold mt-8 relative"
+                    onClick={scrollToTop}
+                  >
                     JOIN NOW <FaArrowRight className="text-red-600 size-4" />
                     <span className="absolute border-2 opacity-50 border-white w-full h-full translate-x-3 -translate-y-3 transition-all duration-300 hover:translate-x-0 hover:translate-y-0"></span>
                   </button>
