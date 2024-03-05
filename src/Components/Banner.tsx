@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 function Banner() {
   return (
-    <div className="bg-[url('/src/assets/Call/background(1).jpg')] bg-center min-h-72 gap-4 px-12 text-white flex font-Montserrat flex-col justify-center items-start">
+    <div className="bg-[url('/src/assets/Call/background(1).jpg')] bg-center min-h-72 gap-4 px-12 text-white flex font-Montserrat flex-col justify-center items-start lg:px-[15%]">
       <h3 className="font-semibold text-4xl">Need a Fitness Trainer?</h3>
       <h4 className="font-semibold text-2xl">
         <span className="text-brightred">Call:</span> +123-456-789
