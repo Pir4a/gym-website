@@ -27,8 +27,8 @@ function Featuredclasses() {
             We Are Offering Best Flexible Classes
           </h3>
         </div>
-        <div className="grid grid-cols-1 grid-rows-6 w-full place-items-center py-12 pb-16 gap-y-4">
-          <div className="w-11/12 relative h-72 py-4 overflow-hidden group ">
+        <div className="grid grid-cols-1 grid-rows-6 w-full place-items-center py-12 pb-16 gap-y-4 lg:grid-cols-4 lg:grid-rows-2 xl:w-3/4">
+          <div className="w-11/12 relative h-72 py-4 overflow-hidden group lg:col-span-2 lg:w-[96%]">
             <img
               src={cyclist}
               className="object-cover object-center min-h-full hover:scale-[1.4] absolute top-0 right-0 left-0 bottom-0
@@ -103,7 +103,7 @@ function Featuredclasses() {
             <span className="rounded-full rotate-[30deg] h-16 w-32 absolute top-20 -left-12 bg-white opacity-30 group-hover:opacity-90 duration-500 ease-in-out"></span>
             <GiBoxingGlove className="absolute top-[6.7rem] size-9 left-6 text-white group-hover:text-brightred transition-all duration-500 ease-in-out " />
           </div>
-          <div className="w-11/12 relative h-72 py-4 overflow-hidden group ">
+          <div className="w-11/12 relative h-72 py-4 overflow-hidden group lg:col-span-2 lg:w-[96%]">
             <img
               src={crossfit}
               className="object-cover object-center min-h-full hover:scale-[1.4] absolute top-0 right-0 left-0 bottom-0
