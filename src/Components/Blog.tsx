@@ -16,8 +16,8 @@ function Blog() {
         <p className="opacity-70 font-medium text-center px-8">
           ZyzzGym's own latest blog posts for advices or news about the fitness
         </p>
-        <div className="grid w-full grid-rows-3 grid-cols-1 gap-y-8 place-items-center py-4 ">
-          <div className="flex flex-col gap-4 w-11/12 items-start px-12 py-8 shadow-xl">
+        <div className="grid w-full grid-rows-3 grid-cols-1 gap-y-8 place-items-center py-4 lg:w-3/4  lg:grid lg:grid-cols-3 lg:grid-rows-1">
+          <div className="flex flex-col gap-4 w-11/12 items-start px-12 py-8 shadow-xl lg:min-h-[490px] lg:justify-between">
             <span className="flex  justify-center items-center px-4 py-2 h-8 border-[1px] border-neutral-400 rounded-xl font-medium text-neutral-500">
               03.03.2024
             </span>
@@ -37,7 +37,7 @@ function Blog() {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col gap-4 w-11/12 items-start px-12 py-8 shadow-xl">
+          <div className="flex flex-col gap-4 w-11/12 items-start px-12 py-8 shadow-xl lg:min-h-[490px] lg:justify-between">
             <span className="flex justify-center items-center px-4 py-2 h-8 border-[1px] border-neutral-400 rounded-xl font-medium text-neutral-500">
               02.03.2024
             </span>
@@ -59,7 +59,7 @@ function Blog() {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col gap-4 w-11/12 items-start px-12 py-8 shadow-xl">
+          <div className="flex flex-col gap-4 w-11/12 items-start px-12 py-8 shadow-xl lg:min-h-[490px] lg:justify-between">
             <span className="flex  justify-center items-center px-4 py-2 h-8 border-[1px] border-neutral-400 rounded-xl font-medium text-neutral-500">
               12.01.2024
             </span>
