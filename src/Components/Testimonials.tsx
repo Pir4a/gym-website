@@ -29,7 +29,7 @@ function Testimonials() {
     <>
       <div className="w-full flex flex-col items-center relative font-Montserrat gap-16 ">
         <img src={title} />
-        <p className="text-white font-semibold text-xl absolute top-1 left-[35%]">
+        <p className="text-white font-semibold text-xl absolute top-1 left-[47%]">
           Testimonials
         </p>
         <div
@@ -138,7 +138,7 @@ function Testimonials() {
             />
           </div>
         </div>
-        <div className="flex flex-col items-center w-full justify-center gap-8 py-12">
+        <div className="flex flex-col items-center w-full justify-center gap-8 py-12 lg:flex-row lg:py-24">
           <img src={logo1} className="w-44" />
           <img src={logo2} className="w-44" />
           <img src={logo3} className="w-44" />
