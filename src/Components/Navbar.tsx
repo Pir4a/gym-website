@@ -56,30 +56,46 @@ function Navbar() {
         >
           <ul className="flex flex-col gap-8 text-2xl text-center font-medium font-sans">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={setMenu}>
+                Home
+              </Link>
             </li>
             <li>
               {" "}
-              <Link to="/about">About</Link>
+              <Link to="/about" onClick={setMenu}>
+                About
+              </Link>
             </li>
             <li>
-              <Link to="/gallery">Gallery</Link>
+              <Link to="/gallery" onClick={setMenu}>
+                Gallery
+              </Link>
             </li>
             <li>
-              <Link to="/schedule">Schedule</Link>
+              <Link to="/schedule" onClick={setMenu}>
+                Schedule
+              </Link>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>
+              <Link to="/blog" onClick={setMenu}>
+                Blog
+              </Link>
             </li>
             <li>
-              <Link to="/pricing">Pricing</Link>
+              <Link to="/pricing" onClick={setMenu}>
+                Pricing
+              </Link>
             </li>
             <li>
-              <Link to="/classes">Classes</Link>
+              <Link to="/classes" onClick={setMenu}>
+                Classes
+              </Link>
             </li>
             <li>
               {" "}
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact" onClick={setMenu}>
+                Contact
+              </Link>
             </li>
           </ul>
           <IoMdClose

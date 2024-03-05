@@ -119,7 +119,7 @@ function Featuredclasses() {
             <GiJumpingRope className="absolute top-[6.7rem] size-9 left-6 text-white group-hover:text-brightred transition-all duration-500 ease-in-out " />
           </div>
         </div>
-        <div className="w-full  min-h-48 bg-brightred text-center px-12 py-4">
+        <div className="w-full  min-h-48 bg-brightred text-center px-12 py-4  lg:py-12 lg:items-center lg:w-full lg:justify-end ">
           <img src={cta} className="hidden" />
           <h3 className="text-white text-2xl font-semibold">
             We Are Always Providing Best Fitness Service For You
