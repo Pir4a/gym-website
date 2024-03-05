@@ -65,7 +65,7 @@ function About() {
               Take your health and body to the next level with our comprehensive
               program designed to help you reach your fitness goals.
             </p>
-            <div className="flex flex-col gap-8 w-full items-center py-4 lg:flex-row divide-x-2 lg:divide-neutral-200 ">
+            <div className="flex flex-col gap-8 w-full items-center py-4 lg:flex-row lg:divide-x-2 lg:divide-neutral-200 ">
               <span className="flex flex-col gap-4 items-center font-semibold text-center text-xl">
                 <img src={TrainersIcon} className="size-14" />
                 <h3>
