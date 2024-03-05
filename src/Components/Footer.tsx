@@ -1,4 +1,5 @@
 import { FaFacebook, FaInstagram, FaTiktok, FaTwitter } from "react-icons/fa"
+import { Link } from "react-router-dom"
 
 function Footer() {
   return (
@@ -19,11 +20,31 @@ function Footer() {
         <div className="flex flex-col gap-1 items-center text-left ">
           <h3 className="font-bold text-xl py-4">Our Classes</h3>
           <span className="border-t-4 border-brightred w-1/3 pb-2 -mt-4"></span>
-          <p className="opacity-70 font-medium">Cardio Classes</p>
-          <p className="opacity-70 font-medium">Powerlifiting classes</p>
-          <p className="opacity-70 font-medium">Bodybuilding classes</p>
-          <p className="opacity-70 font-medium">Crossfit classes</p>
-          <p className="opacity-70 font-medium">Olympic Lifting classes</p>
+          <Link to={"/classes"}>
+            <p className="opacity-70 font-medium hover:text-brightred hover:scale-110 hover:font-bold transition-all duration-200 ease-in-out">
+              Cardio Classes
+            </p>
+          </Link>{" "}
+          <Link to={"/classes"}>
+            <p className="opacity-70 font-medium hover:text-brightred hover:scale-110 hover:font-bold transition-all duration-200 ease-in-out">
+              Powerlifiting classes
+            </p>{" "}
+          </Link>
+          <Link to={"/classes"}>
+            <p className="opacity-70 font-medium hover:text-brightred hover:scale-110 hover:font-bold transition-all duration-200 ease-in-out">
+              Bodybuilding classes
+            </p>{" "}
+          </Link>
+          <Link to={"/classes"}>
+            <p className="opacity-70 font-medium hover:text-brightred hover:scale-110 hover:font-bold transition-all duration-200 ease-in-out">
+              Crossfit classes
+            </p>
+          </Link>{" "}
+          <Link to={"/classes"}>
+            <p className="opacity-70 font-medium hover:text-brightred hover:scale-110 hover:font-bold transition-all duration-200 ease-in-out">
+              Olympic Lifting classes
+            </p>
+          </Link>
         </div>
         <div className="flex flex-col text-left items-center ">
           <h3 className="font-bold text-xl py-4">Working hours</h3>

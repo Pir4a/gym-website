@@ -14,9 +14,9 @@ function Pricing() {
     <>
       <div className="flex flex-col text-center items-center py-24 bg-[url('/src/assets/pricing/background.jpg')] font-Montserrat ">
         <div className="flex flex-col items-center w-full gap-4">
-          <span className="relative w-full flex items-center justify-center">
+          <span className="relative flex items-center justify-center">
             <img src={titlebg} />
-            <p className="absolute top-[0.5px] left-[42%] text-white font-semibold text-xl">
+            <p className="absolute top-[1px] left-[35%]  text-white font-semibold text-xl">
               Pricing
             </p>
           </span>
@@ -25,11 +25,11 @@ function Pricing() {
             For each needs and budget, a different plan.
           </p>
         </div>
-        <div className="grid grid-cols-1 grid-rows-3 place-items-center w-full mt-12 gap-y-8 bg-white">
-          <div className="flex flex-col items-center w-11/12 group shadow-lg pb-8">
+        <div className="grid grid-cols-1 grid-rows-3 place-items-center w-full mt-12 gap-y-8 bg-white lg:bg-transparent lg:grid-cols-3 lg:grid-rows-1 lg:w-3/4">
+          <div className="flex flex-col items-center w-11/12  group shadow-lg pb-8 lg:bg-white">
             <img
               src={image1}
-              className="object-cover w-full grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
+              className="object-cover w-full  grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
             />
             <span className="flex justify-center items-center w-1/2 h-12 bg-white -mt-8 z-20 font-bold text-xl">
               <p className="opacity-80">Casual</p>
@@ -54,7 +54,7 @@ function Pricing() {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col items-center w-11/12 group shadow-lg pb-8">
+          <div className="flex flex-col items-center w-11/12 group shadow-lg pb-8 lg:bg-white">
             <img
               src={image2}
               className="object-cover w-full grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
@@ -82,7 +82,7 @@ function Pricing() {
               </Link>
             </div>
           </div>
-          <div className="flex flex-col items-center w-11/12 group shadow-lg pb-8">
+          <div className="flex flex-col items-center w-11/12 group shadow-lg pb-8 lg:bg-white">
             <img
               src={image3}
               className="object-cover w-full grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"

@@ -28,10 +28,12 @@ function Testimonials() {
   return (
     <>
       <div className="w-full flex flex-col items-center relative font-Montserrat gap-16 ">
-        <img src={title} />
-        <p className="text-white font-semibold text-xl absolute top-1 left-[47%]">
-          Testimonials
-        </p>
+        <span className="relative">
+          <img src={title} />
+          <p className="text-white font-semibold text-xl absolute top-1 left-[20%]">
+            Testimonials
+          </p>
+        </span>
         <div
           className="bg-black flex flex-col overflow-hidden lg:overflow-visible gap-4 lg:gap-8 lg:items-center text-white px-8 pt-8 py-4 w-2/3
          relative outline outline-offset-[1.75rem] outline-8 outline-neutral-200 shadow-lg lg:flex-row"
