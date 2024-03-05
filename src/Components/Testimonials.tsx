@@ -120,7 +120,7 @@ function Testimonials() {
                 >
                   <p className="opacity-70 min-w-full">Fitness Influencer</p>
                   <p className="opacity-70 min-w-full">Reggaeton Goat</p>
-                  <p className="opacity-70 min-w-full">Very Pretty Woman</p>
+                  <p className="opacity-70 min-w-full">Best Singer</p>
                 </span>
               </span>
               <span className="flex gap-4 pt-2">
