@@ -10,6 +10,7 @@ import Schedule from "./Pages/Schedule"
 import BlogPage from "./Pages/BlogPage"
 import PricingPage from "./Pages/PricingPage"
 import ClassesPage from "./Pages/ClassesPage"
+import ContactUs from "./Pages/ContactUs"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/classes" element={<ClassesPage />} />
+        <Route path="/contact" element={<ContactUs />} />
       </Routes>
       <Footer />
     </>
