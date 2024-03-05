@@ -25,7 +25,7 @@ function Trainers() {
             guidance and motivation provided!
           </p>
         </div>
-        <div className="grid grid-cols-1 py-8 grid-rows-3 place-items-center  w-11/12 gap-y-12 mx-auto">
+        <div className="grid grid-cols-1 py-8 grid-rows-3 place-items-center  w-11/12 gap-y-12 mx-auto lg:w-3/4 xl:w-2/3 lg:grid-cols-3 lg:grid-rows-1 lg:gap-4">
           <div className="flex flex-col w-full items-center group">
             <div className="max-h-[250px] w-full overflow-hidden relative justify-center items-center bg-[url('/src/assets/trainers/trainer-bg.png')] bg-no-repeat bg-cover">
               <img
