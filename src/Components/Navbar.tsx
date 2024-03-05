@@ -143,6 +143,9 @@ function Navbar() {
           </div>
         </div>
       </div>
+
+      {/*desktop*/}
+
       <div className="justify-between items-center font-Montserrat bg-black py-4 px-4 fixed top-0 left-0 right-0 z-50 hidden md:flex">
         <Link to="/">
           <img src={logo} />

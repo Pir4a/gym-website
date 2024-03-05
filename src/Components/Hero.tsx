@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6"
 
 function Hero() {
   return (
-    <div className="w-full h-dvh flex justify-center bg-[url('/src/assets/hero/hero-img.jpg')] bg-center font-Montserrat">
+    <div className="w-full h-dvh flex justify-center bg-[url('/src/assets/hero/hero-img.jpg')] bg-cover bg-center font-Montserrat">
       <div className="w-full flex justify-center items-center flex-col gap-8">
         <div className="relative">
           <img src={title} className="title-white w-56" />
