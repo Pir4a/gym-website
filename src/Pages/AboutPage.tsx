@@ -16,7 +16,7 @@ function AboutPage() {
     <>
       <div className="bg-[url('/src/assets/pricing/background.jpg')] py-12">
         <Heroes hero={"About Us"} />
-        <div className="flex flex-col gap-4 items-center w-full text-center py-12 font-Montserrat ">
+        <div className="flex flex-col gap-4 items-center w-full text-center py-12 font-Montserrat lg:w-1/2 lg:mx-auto lg:gap-8 ">
           <span className="relative">
             <img src={titlebg} className="w-56" />
             <p className="font-semibold text-xl text-white absolute top-1 left-[20%]">
@@ -24,7 +24,7 @@ function AboutPage() {
             </p>
           </span>
           <h3 className="font-semibold text-4xl px-8">
-            We will Give You Stregnth and Health
+            We will Give You Strength and Health
           </h3>
           <p className="opacity-70 font-medium px-10">
             At ZyzzGym, we are dedicated to helping you achieve the body of your
@@ -45,8 +45,11 @@ function AboutPage() {
             </Link>
           </div>
         </div>
-        <div className="grid grid-cols-1 grid-rows-1 w-11/12 mx-auto place-items-center font-Montserrat py-8">
-          <div className="flex flex-col items-center gap-4 w-full py-8 bg-white">
+        <div
+          className="grid grid-cols-1 grid-rows-1 w-11/12 mx-auto place-items-center font-Montserrat py-8 lg:grid-cols-2 lg:grid-rows-2 
+        lg:w-2/3"
+        >
+          <div className="flex flex-col items-center gap-4 w-full py-8 bg-white lg:h-full lg:justify-center">
             <img src={goal} className="size-24" />
             <h3 className="font-bold text-4xl">Our Goal</h3>
             <p className="text-center opacity-70 px-4">
@@ -61,7 +64,7 @@ function AboutPage() {
           <div className="w-full">
             <img src={image1} className="w-full h-full" />
           </div>
-          <div className="flex flex-col items-center gap-4 w-full py-8 bg-white">
+          <div className="flex flex-col items-center gap-4 w-full py-8 bg-white lg:col-start-2 lg:col-end-2 lg:row-start-2 lg:h-full lg:justify-center">
             <img src={moutain} className="size-24" />
             <h3 className="font-bold text-4xl">Our Story</h3>
             <p className="text-center opacity-70 px-4">
@@ -74,7 +77,10 @@ function AboutPage() {
             </p>
           </div>
           <div className="w-full">
-            <img src={image2} className="w-full h-full" />
+            <img
+              src={image2}
+              className="w-full h-full lg:col-start-1 lg:col-end-1"
+            />
           </div>
         </div>
       </div>

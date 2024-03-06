@@ -13,7 +13,7 @@ function ClassesPage() {
   return (
     <>
       <Heroes hero={"Classes"} />
-      <div className="flex flex-col items-center w-11/12 gap-4 mx-auto py-8 font-Montserrat">
+      <div className="flex flex-col items-center w-11/12 gap-4 mx-auto md:w-3/4 py-8 font-Montserrat lg:grid lg:grid-cols-3 lg:w-2/3">
         {classdata.map((classes) => (
           <div
             className="min-h-[450px] shadow-lg rounded-lg relative w-full"

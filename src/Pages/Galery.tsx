@@ -12,8 +12,8 @@ import pic9 from "../assets/GalleryPage/10.jpg"
 function Galery() {
   return (
     <div>
-      <Heroes hero={"Galery"} />
-      <div className="grid grid-cols-1 grid-rows-1 w-11/12 mx-auto gap-4 py-12">
+      <Heroes hero={"Gallery"} />
+      <div className="grid grid-cols-1 grid-rows-1 w-11/12 mx-auto gap-4 py-12 lg:w-2/3 lg:grid-cols-3 md:w-1/2">
         <img src={pic8} />
         <img src={pic2} />
         <img src={pic4} />
@@ -22,7 +22,7 @@ function Galery() {
         <img src={pic5} />
         <img src={pic7} />
         <img src={pic1} />
-        <img src={pic9} />
+        <img src={pic9} className="lg:h-full" />
       </div>
     </div>
   )

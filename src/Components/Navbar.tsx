@@ -35,7 +35,7 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="flex justify-between items-center font-Montserrat bg-black py-4 px-4 fixed top-0 left-0 right-0 z-50 md:hidden">
+      <div className="flex justify-between items-center font-Montserrat bg-black py-4 px-4 fixed top-0 left-0 right-0 z-50 lg:hidden">
         <Link to="/">
           <img src={logo} />
         </Link>
@@ -165,7 +165,7 @@ function Navbar() {
 
       {/*desktop*/}
 
-      <div className="justify-between items-center font-Montserrat bg-black py-4 px-4 fixed top-0 left-0 right-0 z-50 hidden md:flex">
+      <div className="justify-between items-center font-Montserrat bg-black py-4 px-4 fixed top-0 left-0 right-0 z-50 hidden lg:flex">
         <Link to="/">
           <img src={logo} />
         </Link>
@@ -219,14 +219,17 @@ function Navbar() {
         </div>
         <div
           className={`flex flex-col items-center max-h-[125dvh] overflow-y-scroll z-50 w-full fixed bg-black text-white
-         transition-all duration-300 ease-out top-0 bottom-0 ${
+         transition-all duration-300 ease-out top-0 bottom-0 lg:w-1/4 lg:overflow-y-hidden ${
            isSideBarOpen ? "left-0" : "-left-full"
          }`}
         >
           <div className="flex justify-between p-8 w-full">
             {" "}
             <img src={logo} />
-            <IoMdClose className=" size-10 text-red-600" onClick={setSideBar} />
+            <IoMdClose
+              className=" size-10 text-red-600 cursor-pointer"
+              onClick={setSideBar}
+            />
           </div>
           <div className="pt-2 px-12 flex flex-col gap-4 ">
             <h2 className="text-2xl font-bold font-sans">About Us</h2>
