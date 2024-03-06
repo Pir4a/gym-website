@@ -18,7 +18,7 @@ function About() {
         <div className="grid grid-cols-1 grid-rows-3 place-items-center w-full gap-24 lg:grid-cols-3 lg:grid-rows-1 lg:pb-12 lg:gap-4 lg:w-4/5 xl:w-3/4 2xl:w-2/3 lg:mx-auto">
           <div
             className="flex flex-col text-center items-center w-[90%] px-6 gap-4 py-8 rounded-tl-[40px] -mt-12  rounded-br-[40px] bg-white shadow-xl
-           hover:bg-[url('/src/assets/who-we-are/info-card-bg.jpg')] hover:text-white transition-all duration-300 lg:py-12 "
+           lg:hover:bg-[url('/src/assets/who-we-are/info-card-bg.jpg')] lg:hover:text-white transition-all duration-300 lg:py-12 "
           >
             <img src={ProgressionImg} />
             <h2 className="font-semibold text-2xl">PROGRESSION</h2>
@@ -29,7 +29,7 @@ function About() {
           </div>
           <div
             className="flex flex-col text-center items-center w-[90%] px-6 gap-4 py-8 rounded-tl-[40px] -mt-12  rounded-br-[40px] bg-white shadow-xl
-          hover:bg-[url('/src/assets/who-we-are/info-card-bg.jpg')] hover:text-white transition-all duration-300 lg:py-12"
+          lg:hover:bg-[url('/src/assets/who-we-are/info-card-bg.jpg')] lg:hover:text-white transition-all duration-300 lg:py-12"
           >
             <img src={WorkoutImg} />
             <h2 className="font-semibold text-2xl">WORKOUT</h2>
@@ -40,7 +40,7 @@ function About() {
           </div>
           <div
             className="flex flex-col text-center items-center w-[90%] px-6 gap-4 py-8 rounded-tl-[40px] -mt-12  rounded-br-[40px] bg-white shadow-xl 
-          hover:bg-[url('/src/assets/who-we-are/info-card-bg.jpg')] hover:text-white transition-all duration-300 lg:py-12"
+          lg:hover:bg-[url('/src/assets/who-we-are/info-card-bg.jpg')] lg:hover:text-white transition-all duration-300 lg:py-12"
           >
             <img src={NutritionImg} />
             <h2 className="font-semibold text-2xl">NUTRITIONS</h2>
