@@ -136,7 +136,7 @@ function Testimonials() {
             </div>
             <img
               src={bike}
-              className="opacity-80 w-24 h-28 z-50 absolute bottom-0 left-0"
+              className="opacity-80 w-24 h-28 z-0 absolute bottom-0 left-0"
             />
           </div>
         </div>
